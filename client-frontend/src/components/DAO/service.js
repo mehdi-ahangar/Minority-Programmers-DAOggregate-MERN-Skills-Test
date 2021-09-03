@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const apiAddress = 'http://localhost:5000/';
-//const apiAddress = 'https://daolist.openode.io/';
+//const apiAddress = 'http://localhost:5000/';
+const apiAddress = 'https://daos.openode.io/';
 
 export const DAOService = {
 
