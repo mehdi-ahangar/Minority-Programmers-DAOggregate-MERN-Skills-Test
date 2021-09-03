@@ -2,7 +2,7 @@
 import { Table, Button, Space } from 'antd';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'antd/dist/antd2.css';
+import 'antd/dist/antd.css';
 import moment from 'moment';
 import { columns } from '../../dataSource';
 import { Link } from "react-router-dom";
