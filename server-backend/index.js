@@ -45,6 +45,6 @@ app.use('/logo',express.static('data/Icon/'));
 //app.use('/data/Icon/', express.static('data/Icon/')); 
 //app.use('/upload', DaoRouter);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 //const port = 80;
 app.listen( port, () => console.log(`Mock server is running on port ${port}`));
