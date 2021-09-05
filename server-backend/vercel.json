@@ -3,7 +3,7 @@
     "name":"DAOggregation-api",
     "builds": [
         {
-            "src": "index.js",
+            "src": "package.json",
             "use": "vercel-sapper"
             
         }
