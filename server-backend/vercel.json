@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "name":"DAOggregation-api"
     "builds": [
         {
             "src": "index.js",
@@ -11,7 +12,7 @@
 
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "/index.js"
 
         }
     ]
