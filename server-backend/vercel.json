@@ -4,7 +4,7 @@
     "builds": [
         {
             "src": "index.js",
-            "use": "now-sapper"
+            "use": "vercel-sapper"
             
         }
     ],
