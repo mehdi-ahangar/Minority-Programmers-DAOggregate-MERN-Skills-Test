@@ -19,6 +19,6 @@ app.use( cors());
 app.use('/', DaoRouter);
 app.use('/logo',express.static('data/Icon/'));  
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 //const port = 80;
 app.listen( port, () => console.log(`Mock server is running on port ${port}`));
