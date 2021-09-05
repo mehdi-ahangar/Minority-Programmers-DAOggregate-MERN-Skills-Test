@@ -7,7 +7,7 @@ const multiparty = require('multiparty');
 const { update } = require('../../dal/dao.repo');
 const { json } = require('body-parser');
 //const logoApi= "http://localhost:5000/logo/";
-const logoApi= "https://dao-api.vercel.app/logo/";
+const logoApi= "http://dao-api.vercel.app/logo/";
 
 const controller = {
 
