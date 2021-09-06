@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 //const apiAddress = 'http://localhost:5000/';
-const apiAddress = 'https://carnelian-tungsten-vermicelli.glitch.me/';
+const apiAddress = 'https://daoggregation.herokuapp.com/';
 
 export const DAOService = {
 
